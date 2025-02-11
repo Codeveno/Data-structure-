@@ -1,0 +1,134 @@
+Basic Data Structures
+    Arrays
+        One-dimensional arrays
+        Multidimensional arrays
+        Dynamic arrays
+    Strings
+        String manipulation
+        String searching algorithms (e.g., Naive, KMP, Rabin-Karp)
+    Linked Lists
+        Singly linked lists
+        Doubly linked lists
+        Circular linked lists
+    Stacks
+        Stack operations (push, pop, peek)
+        Applications of stacks (e.g., expression evaluation, backtracking)
+    Queues
+        Linear queues
+        Circular queues
+        Priority queues
+    Hash Tables
+        Hashing functions
+        Collision resolution (chaining, open addressing)
+        Load factor and rehashing
+
+Intermediate Data Structures
+    Trees
+        Binary trees
+        Binary search trees (BST)
+        AVL trees (self-balancing BST)
+        Red-Black trees
+        B-trees and B+ trees
+    Heaps
+        Min-heap and max-heap
+        Heap operations (insert, delete, heapify)
+        Applications of heaps (e.g., priority queues, heap sort)
+    Graphs
+        Graph representations (adjacency matrix, adjacency list)
+        Graph traversal algorithms (BFS, DFS)
+        Shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall)
+        Minimum spanning tree algorithms (Kruskal, Prim)
+    Tries
+        Trie structure and operations
+        Applications (e.g., autocomplete, spell checking)
+    Disjoint Set Union (DSU) / Union-Find
+        Union by rank and path compression
+        Applications (e.g., Kruskal’s algorithm, cycle detection)
+
+Advanced Data Structures
+    Segment Trees
+        Range queries (sum, min, max)
+        Lazy propagation
+    Fenwick Trees (Binary Indexed Trees)
+        Prefix sum queries
+        Point updates
+    Sparse Tables
+        Range minimum/maximum queries (RMQ)
+    Suffix Arrays and Suffix Trees
+        Pattern searching in strings
+        Longest common substring
+    Advanced Graphs
+        Topological sorting
+        Strongly connected components (Kosaraju’s algorithm, Tarjan’s algorithm)
+        Eulerian and Hamiltonian paths
+        Network flow algorithms (Ford-Fulkerson, Edmonds-Karp)
+    Advanced Hashing
+        Rolling hash
+        Double hashing
+        Bloom filters
+    Persistent Data Structures
+        Persistent stacks, queues, and segment trees
+    Splay Trees
+        Self-adjusting binary search trees
+    Treaps
+        Randomized binary search trees
+
+Specialized and Complex Data Structures
+    KD-Trees
+        Spatial partitioning for multidimensional data
+    R-Trees
+        Indexing for spatial databases
+    Quadtrees and Octrees
+        Hierarchical tree structures for 2D/3D space
+    Binary Indexed Trees with Range Updates
+        Handling range updates and point queries
+    Wavelet Trees
+        Efficient range queries on sequences
+    Van Emde Boas Trees
+        Efficient priority queues for integer keys
+    Fibonacci Heaps
+        Advanced priority queues with amortized constant-time operations
+    Disjoint Sparse Tables
+        Efficient range queries with updates
+    Dynamic Connectivity Structures
+        Handling dynamic graphs with edge insertions/deletions
+    Succinct Data Structures
+        Space-efficient representations of data structures
+
+Applications and Algorithms Using Data Structures
+    Sorting Algorithms
+        Comparison-based sorts (e.g., quicksort, mergesort)
+        Non-comparison sorts (e.g., counting sort, radix sort)
+    Searching Algorithms
+        Binary search
+        Interpolation search
+    Dynamic Programming
+        Memoization and tabulation
+        Applications (e.g., knapsack, longest common subsequence)
+    Greedy Algorithms
+        Applications (e.g., Huffman coding, activity selection)
+    Divide and Conquer
+        Applications (e.g., merge sort, closest pair of points)
+    Backtracking
+        Applications (e.g., N-queens, Sudoku solver)
+    Bit Manipulation
+        Bitwise operations
+        Applications (e.g., subset generation, bitmask DP)
+
+Advanced Topics
+    External Memory Data Structures
+        B-trees for disk-based storage
+    Cache-Oblivious Data Structures
+        Optimized for hierarchical memory systems
+    Probabilistic Data Structures
+        Count-Min Sketch
+        HyperLogLog
+    Concurrent Data Structures
+        Lock-free queues and stacks
+        Concurrent hash maps
+    Geometric Data Structures
+        Range trees
+        Voronoi diagrams
+    Compressed Data Structures
+        Compressed suffix arrays
+        Wavelet matrices
