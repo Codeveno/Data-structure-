@@ -42,6 +42,51 @@ string6 = 'Hello World'
 print(string6[0:5])
 print(string6[6:11])
 
+# Control when displaying Output
+
+num = 188558.566788
+
+print(f"Number: {num:.2f} ")
+print(f"Number: {num:,} ")
+print(f"Number: {num:b} ")
+print(f"Number: {num:o} ")
+print(f"Number: {num:X} ")
+print(f"Number: {num:E} ")
+
+print()
+
+animal = "cow"
+item = "moon"
+
+# print(f"The {animal} jumped over the {item}")
+print("The {} jumped over the {}".format(animal,item))
+
+# Positional Arguments
+print("The {0} jumped over the {1}".format(animal,item))
+
+# Keyword Arguments
+print("The {animal} jumped over the {item}".format(animal= "cow",item="moon"))
+
+
+animal = "cow"
+item = "moon"
+
+text = "The {} jumped over the {}"
+print(text.format(animal,item))
+
+
+
+name = "Jean"
+print("Hello, my name is {} Nice meeting you".format(name))
+print("Hello, my name is {:5} Nice meeting you".format(name))
+print("Hello, my name is {:<10} Nice meeting you".format(name))
+print("Hello, my name is {:>10} Nice meeting you".format(name))
+print("Hello, my name is {:^10} Nice meeting you".format(name))
+
+
+
+
+
 
 
 
